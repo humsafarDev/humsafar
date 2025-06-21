@@ -1,0 +1,54 @@
+# See https://git-scm.com/docs/gitignore for syntax
+
+# dependencies
+/node_modules
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional: if using testing or coverage tools
+coverage
+*.lcov
+
+# Optional: for linting cache
+.eslintcache
+
+# Optional: if using React Native Web or Expo Web
+.web/
+
+# Optional: if using Next.js
+.next/
+
+# Optional: if using Vite
+.vite/
+
+# Optional: if using Storybook
+.storybook-out/
